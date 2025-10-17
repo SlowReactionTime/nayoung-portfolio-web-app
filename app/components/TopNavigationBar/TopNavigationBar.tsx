@@ -31,7 +31,7 @@ export default function TopNavigationBar() {
     return (
         <header className={classes.header}>
             <Container size="md" className={classes.inner}>
-                Nayoung Cute
+                Nayoung "Luna" Kim
                 <Group gap={5} visibleFrom="xs">
                     {items}
                 </Group>
