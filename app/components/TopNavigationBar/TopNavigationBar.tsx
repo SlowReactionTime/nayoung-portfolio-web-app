@@ -1,4 +1,4 @@
-import { Container, Group } from "@mantine/core";
+import { Container, Group, Text } from "@mantine/core";
 import { useState } from "react";
 import classes from "./TopNavigationBar.module.css"
 import { useLocation } from 'react-router-dom';
@@ -31,7 +31,11 @@ export default function TopNavigationBar() {
     return (
         <header className={classes.header}>
             <Container size="md" className={classes.inner}>
-                Nayoung "Luna" Kim
+                <a href="/">
+                    <Text fz='xl' fw={700}>
+                        Nayoung "Luna" Kim
+                    </Text>
+                </a>
                 <Group gap={5} visibleFrom="xs">
                     {items}
                 </Group>
