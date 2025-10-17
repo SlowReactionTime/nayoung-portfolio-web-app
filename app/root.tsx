@@ -13,6 +13,7 @@ import { MantineProvider } from "@mantine/core";
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
 import '@mantine/core/styles.css';
+import TopNavigationBar from "./components/TopNavigationBar/TopNavigationBar";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -46,7 +47,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <MantineProvider><Outlet /></MantineProvider>;
+  return <MantineProvider>
+    <TopNavigationBar />
+    <Outlet />
+  </MantineProvider>;
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
