@@ -1,0 +1,125 @@
+{
+  "_Text-DC9C9C85.js": {
+    "file": "assets/Text-DC9C9C85.js",
+    "name": "Text",
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "_chunk-OIYGIGL5-rbcUeYSU.js": {
+    "file": "assets/chunk-OIYGIGL5-rbcUeYSU.js",
+    "name": "chunk-OIYGIGL5"
+  },
+  "_index-DHNUcomk.js": {
+    "file": "assets/index-DHNUcomk.js",
+    "name": "index",
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "app/assets/portfolio-a-quiet-night.png": {
+    "file": "assets/portfolio-a-quiet-night-DF4MaTTE.png",
+    "src": "app/assets/portfolio-a-quiet-night.png"
+  },
+  "app/assets/portfolio-futuristic-world.png": {
+    "file": "assets/portfolio-futuristic-world-CFcoGK5i.png",
+    "src": "app/assets/portfolio-futuristic-world.png"
+  },
+  "app/assets/portfolio-lost-and-found.png": {
+    "file": "assets/portfolio-lost-and-found-CYWTHtVN.png",
+    "src": "app/assets/portfolio-lost-and-found.png"
+  },
+  "app/assets/portfolio-rocket-launching.png": {
+    "file": "assets/portfolio-rocket-launching-CGfRj4k0.png",
+    "src": "app/assets/portfolio-rocket-launching.png"
+  },
+  "app/assets/portfolio-unexpectedly.png": {
+    "file": "assets/portfolio-unexpectedly-DIqOohjF.png",
+    "src": "app/assets/portfolio-unexpectedly.png"
+  },
+  "app/assets/portfolio-whisper-of-the-enchanted-world.png": {
+    "file": "assets/portfolio-whisper-of-the-enchanted-world-CHiYHyVX.png",
+    "src": "app/assets/portfolio-whisper-of-the-enchanted-world.png"
+  },
+  "app/root.tsx?__react-router-build-client-route": {
+    "file": "assets/root-CJti5HKN.js",
+    "name": "root",
+    "src": "app/root.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js",
+      "_Text-DC9C9C85.js"
+    ],
+    "css": [
+      "assets/root-CiY7bchH.css"
+    ]
+  },
+  "app/routes/about.tsx?__react-router-build-client-route": {
+    "file": "assets/about-BsO778dQ.js",
+    "name": "about",
+    "src": "app/routes/about.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "app/routes/contact.tsx?__react-router-build-client-route": {
+    "file": "assets/contact-CvrN9DwT.js",
+    "name": "contact",
+    "src": "app/routes/contact.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "app/routes/home.tsx?__react-router-build-client-route": {
+    "file": "assets/home-D-w9c6YK.js",
+    "name": "home",
+    "src": "app/routes/home.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "app/routes/portfolio.tsx?__react-router-build-client-route": {
+    "file": "assets/portfolio-PSQqsf-I.js",
+    "name": "portfolio",
+    "src": "app/routes/portfolio.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js",
+      "_Text-DC9C9C85.js",
+      "_index-DHNUcomk.js"
+    ],
+    "css": [
+      "assets/portfolio-CYOKPRc4.css"
+    ],
+    "assets": [
+      "assets/portfolio-a-quiet-night-DF4MaTTE.png",
+      "assets/portfolio-futuristic-world-CFcoGK5i.png",
+      "assets/portfolio-lost-and-found-CYWTHtVN.png",
+      "assets/portfolio-rocket-launching-CGfRj4k0.png",
+      "assets/portfolio-unexpectedly-DIqOohjF.png",
+      "assets/portfolio-whisper-of-the-enchanted-world-CHiYHyVX.png"
+    ]
+  },
+  "app/routes/resume.tsx?__react-router-build-client-route": {
+    "file": "assets/resume-Lr7FlqOr.js",
+    "name": "resume",
+    "src": "app/routes/resume.tsx?__react-router-build-client-route",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js"
+    ]
+  },
+  "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
+    "file": "assets/entry.client-Cqh9yR14.js",
+    "name": "entry.client",
+    "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
+    "isEntry": true,
+    "imports": [
+      "_chunk-OIYGIGL5-rbcUeYSU.js",
+      "_index-DHNUcomk.js"
+    ]
+  }
+}
