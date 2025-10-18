@@ -1,1 +1,0 @@
-import{w as e,p as t}from"./chunk-OIYGIGL5-Cu3wia-V.js";function r({}){return[{title:"New React Router App"},{name:"description",content:"Welcome to React Router!"}]}const m=e(function(){return t.jsx(t.Fragment,{children:"Home..."})});export{m as default,r as meta};

@@ -1,22 +1,4 @@
 {
-  "_Text-BPclCLzt.js": {
-    "file": "assets/Text-BPclCLzt.js",
-    "name": "Text",
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
-  "_chunk-OIYGIGL5-Cu3wia-V.js": {
-    "file": "assets/chunk-OIYGIGL5-Cu3wia-V.js",
-    "name": "chunk-OIYGIGL5"
-  },
-  "_index-CMwa3Jz1.js": {
-    "file": "assets/index-CMwa3Jz1.js",
-    "name": "index",
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
   "app/assets/portfolio-a-quiet-night.png": {
     "file": "assets/portfolio-a-quiet-night-DF4MaTTE.png",
     "src": "app/assets/portfolio-a-quiet-night.png"
@@ -41,58 +23,13 @@
     "file": "assets/portfolio-whisper-of-the-enchanted-world-CHiYHyVX.png",
     "src": "app/assets/portfolio-whisper-of-the-enchanted-world.png"
   },
-  "app/root.tsx?__react-router-build-client-route": {
-    "file": "assets/root-D0dpqiiv.js",
-    "name": "root",
-    "src": "app/root.tsx?__react-router-build-client-route",
+  "virtual:react-router/server-build": {
+    "file": "index.js",
+    "name": "server-build",
+    "src": "virtual:react-router/server-build",
     "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js",
-      "_Text-BPclCLzt.js"
-    ],
     "css": [
-      "assets/root-CiY7bchH.css"
-    ]
-  },
-  "app/routes/about.tsx?__react-router-build-client-route": {
-    "file": "assets/about-gUqlecP8.js",
-    "name": "about",
-    "src": "app/routes/about.tsx?__react-router-build-client-route",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
-  "app/routes/contact.tsx?__react-router-build-client-route": {
-    "file": "assets/contact-BW_QelFA.js",
-    "name": "contact",
-    "src": "app/routes/contact.tsx?__react-router-build-client-route",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
-  "app/routes/home.tsx?__react-router-build-client-route": {
-    "file": "assets/home-Bxpz4QO3.js",
-    "name": "home",
-    "src": "app/routes/home.tsx?__react-router-build-client-route",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
-  "app/routes/portfolio.tsx?__react-router-build-client-route": {
-    "file": "assets/portfolio-Bx8cahTC.js",
-    "name": "portfolio",
-    "src": "app/routes/portfolio.tsx?__react-router-build-client-route",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js",
-      "_Text-BPclCLzt.js",
-      "_index-CMwa3Jz1.js"
-    ],
-    "css": [
-      "assets/portfolio-CYOKPRc4.css"
+      "assets/server-build-BdP-t3BJ.css"
     ],
     "assets": [
       "assets/portfolio-a-quiet-night-DF4MaTTE.png",
@@ -101,25 +38,6 @@
       "assets/portfolio-rocket-launching-CGfRj4k0.png",
       "assets/portfolio-unexpectedly-DIqOohjF.png",
       "assets/portfolio-whisper-of-the-enchanted-world-CHiYHyVX.png"
-    ]
-  },
-  "app/routes/resume.tsx?__react-router-build-client-route": {
-    "file": "assets/resume-CDff8N0e.js",
-    "name": "resume",
-    "src": "app/routes/resume.tsx?__react-router-build-client-route",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js"
-    ]
-  },
-  "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
-    "file": "assets/entry.client-CuXEtMfA.js",
-    "name": "entry.client",
-    "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
-    "isEntry": true,
-    "imports": [
-      "_chunk-OIYGIGL5-Cu3wia-V.js",
-      "_index-CMwa3Jz1.js"
     ]
   }
 }
