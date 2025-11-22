@@ -4,9 +4,9 @@ import classes from "./TopNavigationBar.module.css"
 import { useLocation } from 'react-router-dom';
 
 const topNavBarItems = [
+    { link: '/', label: 'Home'},
     { link: '/portfolio', label: 'Portfolio' },
     { link: '/resume', label: 'Resume' },
-    { link: '/about', label: 'About' },
 ];
 
 // TODO: stop the "blink" on the active link caused by rerendering the top nav bar
