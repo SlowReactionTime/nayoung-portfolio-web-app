@@ -1,13 +1,15 @@
 .inner {
   display: flex;
   justify-content: space-between;
-  padding-top: calc(var(--mantine-spacing-xl) * 4);
-  padding-bottom: calc(var(--mantine-spacing-xl) * 4);
+  padding-top: calc(var(--mantine-spacing-xl) * 5);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 5);
 }
 
 .content {
-  max-width: 480px;
+  max-width: 560px;
   margin-right: calc(var(--mantine-spacing-xl) * 3);
+  /* increase base font-size for content to make body text a little bigger */
+  font-size: 18px;
 
   @media (max-width: $mantine-breakpoint-md) {
     max-width: 100%;
@@ -18,12 +20,12 @@
 .title {
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
   font-family: Outfit, var(--mantine-font-family);
-  font-size: 44px;
+  font-size: 56px;
   line-height: 1.2;
   font-weight: 500;
 
   @media (max-width: $mantine-breakpoint-xs) {
-    font-size: 28px;
+    font-size: 36px;
   }
 }
 
@@ -34,8 +36,8 @@
 }
 
 .image {
-  width: 376px;
-  height: 356px;
+  width: 470px;
+  height: 446px;
 
   @media (max-width: $mantine-breakpoint-md) {
     display: none;
@@ -46,9 +48,9 @@
   position: relative;
   background-color: var(--mantine-color-blue-light);
   border-radius: var(--mantine-radius-sm);
-  padding: 4px 12px;
+  padding: 6px 14px;
 }
 
 .listItem {
-    font-size: 15px;
+    font-size: 18px;
 }

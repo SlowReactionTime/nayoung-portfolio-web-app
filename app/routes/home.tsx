@@ -25,9 +25,9 @@ export default function Home() {
           </Text>
 
           <List
-            mt={30}
+            mt={36}
             spacing="sm"
-            size="sm"
+            size="md"
           >
             <List.Item className={classes.listItem}>
               <b>I can</b> : create immersive visuals that blend storytelling with latest technologies.
@@ -39,15 +39,6 @@ export default function Home() {
               <b>I create</b> : works that challenge viewers to reconsider the everyday and view it from a new, often transformative perspective.
             </List.Item>
           </List>
-
-          <Group mt={30}>
-            <Button radius="xl" size="md" className={classes.control} onClick={() => navigate('/portfolio')}>
-              Portfolio
-            </Button>
-            <Button variant="default" radius="xl" size="md" className={classes.control} onClick={() => navigate('/resume')}>
-              Resume
-            </Button>
-          </Group>
         </div>
         <Image src={image} className={classes.image} />
       </div>
