@@ -1,4 +1,4 @@
-import type { PortfolioItemDataWrapper } from "~/components/PortfolioItem/PortfolioItem";
+import type { PortfolioCardDataWrapper } from "~/components/PortfolioCard/PortfolioCard";
 import QuietNightImage from "../assets/portfolio-a-quiet-night.png";
 import FuturisticWorldImage from "../assets/portfolio-futuristic-world.png";
 import LostAndFoundImage from "../assets/portfolio-lost-and-found.png";
@@ -7,7 +7,7 @@ import UnexpectedlyImage from "../assets/portfolio-unexpectedly.png";
 import WhisperOfEnchantedWorldImage from "../assets/portfolio-whisper-of-the-enchanted-world.png";
 
 // TODO: this is mock data fetching
-export function fetchPortfolioItemDataList(): PortfolioItemDataWrapper[] {
+export function fetchPortfolioCardDataList(): PortfolioCardDataWrapper[] {
     return [
         {
             data: {
