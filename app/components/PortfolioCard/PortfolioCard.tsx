@@ -1,5 +1,5 @@
 import { Button, Card, CardSection, Group, Image, Text } from '@mantine/core';
-import classes from './PortfolioItem.module.css';
+import classes from './PortfolioCard.module.css';
 import type { FC, JSX } from 'react';
 
 interface PortfolioItemData {
@@ -9,11 +9,11 @@ interface PortfolioItemData {
     programUsed: string
 }
 
-export interface PortfolioItemDataWrapper {
+export interface PortfolioCardDataWrapper {
     data: PortfolioItemData
 }
 
-export const PortfolioItem: FC<PortfolioItemDataWrapper> = ({ data }): JSX.Element => {
+export const PortfolioCard: FC<PortfolioCardDataWrapper> = ({ data }): JSX.Element => {
     const { image, title, description, programUsed } = data;
 
     return (
