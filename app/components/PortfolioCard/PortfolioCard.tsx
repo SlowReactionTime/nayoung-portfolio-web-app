@@ -1,8 +1,9 @@
 import { Button, Card, CardSection, Group, Image, Text } from '@mantine/core';
 import classes from './PortfolioCard.module.css';
 import type { FC, JSX } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-interface PortfolioItemData {
+interface PortfolioCardData {
     image: string,
     title: string,
     description: string,
@@ -10,10 +11,12 @@ interface PortfolioItemData {
 }
 
 export interface PortfolioCardDataWrapper {
-    data: PortfolioItemData
+    data: PortfolioCardData
 }
 
 export const PortfolioCard: FC<PortfolioCardDataWrapper> = ({ data }): JSX.Element => {
+    const navigate = useNavigate();
+
     const { image, title, description, programUsed } = data;
 
     return (
@@ -38,7 +41,7 @@ export const PortfolioCard: FC<PortfolioCardDataWrapper> = ({ data }): JSX.Eleme
                 </Text>
             </CardSection>
             <Group mt="xs">
-                <Button radius="md" style={{ flex: 1 }}>
+                <Button radius="md" style={{ flex: 1 }} onClick={() => navigate('/portfolio/' + title.toLowerCase().replace(/\s+/g, '-'))}>
                     Show details
                 </Button>
             </Group>

@@ -7,8 +7,10 @@ export default function Portfolio() {
     <PortfolioCard data={wrapper.data} />
   ));
   return (
-    <SimpleGrid cols={2} mt="md">
-      {items}
-    </SimpleGrid>
+    <div style={{ marginTop: '3rem' }}>
+      <SimpleGrid cols={2} mt="md">
+        {items}
+      </SimpleGrid>
+    </div>
   )
 }
